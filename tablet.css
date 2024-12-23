@@ -1,0 +1,185 @@
+@media only screen and (max-width: 768px){
+    .header{
+        height: 10rem;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-items: space-between;
+        gap: 1rem;
+    }
+    .links a{
+        font-size: 1.5rem;
+    }
+   .home{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: space-between;
+        gap: -10rem;
+        position: relative;
+        bottom: 10rem;
+    }
+    .texts h3{
+        position: absolute;
+        left: 2.5rem;
+        bottom: 32rem;
+        font-size: 1.9rem;
+    }
+    .texts{
+        position: relative;
+        bottom: 300rem;
+    }
+    .texts h1{
+        font-size: 3rem;
+        position: relative;
+        bottom: 20rem;
+        right: 10rem;
+    }
+    .image{
+        position: relative;
+        left: 21rem;
+        top: 14rem;
+    }
+    .image img{
+        width: 26rem;
+        height: 30rem;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 18rem;
+    }
+    .about h1{
+        position: relative;
+        right: 30rem;
+    }
+    .more{
+        display: flex;
+        flex-direction: column;
+    }
+    .images img{
+        width: 30rem;
+        height: 26rem;
+    }
+    .images{
+        position: relative;
+        right: 2rem;
+    }
+    .text{
+        position: relative;
+        bottom: 15rem;
+        left: 10px;
+    }
+    .text p{
+        font-size: 1.3rem;
+    }
+    .text button{
+        position: relative;
+        left: 30rem;
+        top: 5px;
+    }
+
+    .service{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 40rem;
+    }
+    .service h1{
+        position: relative;
+        left: 10rem;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 6rem;
+    }
+    .button button{
+        width: 40rem;
+        height: 28rem;
+        font-size: 1.5rem;
+        align-content: center;
+    }
+    .portifolio{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 35rem;
+    }
+    .portifolio h1{
+        position: relative;
+        left: 15rem;
+        top: 15rem;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 4rem;
+        bottom: 7rem;
+    }
+    .projects img{
+        width: 40rem;
+        height: 25rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 35rem;
+    }
+    .contact h1{
+        position: relative;
+        left: 15rem;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 1rem;
+    }
+    .contact-info img{
+        position: relative;
+        left: 4rem;
+    }
+    .message{
+        position: relative;
+        left: 4rem;
+    }
+    .media img{
+        width: 35rem;
+        height: 30rem;
+    }
+    .message input{
+        width: 35rem;
+        height: 3rem;
+        font-size: 1.3rem;
+    }
+    .message textarea{
+        width: 35rem;
+        height: 10rem;
+        font-size: 1.3rem;
+    }
+    .message button{
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+    .social{
+        position: relative;
+        left: 6rem;
+    }
+  .multi{
+    position: relative;
+    right: 20rem;
+  }
+  .footer{
+    position: relative;
+    bottom: 35rem;
+    /* padding-bottom: 1rem; */
+  }
+  .footer h2{
+    font-size: 1rem;
+  }
+}

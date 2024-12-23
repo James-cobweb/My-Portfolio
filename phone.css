@@ -1,0 +1,224 @@
+@media only screen and (max-width:480px){
+    .header{
+        height: 50rem;
+    }
+    .header .menu{
+        display: block;
+        color: white;
+        background: darkcyan;
+        position: fixed;
+        top: 1rem;
+
+    }
+    .menu .open{
+        position: relative;
+        left: 8px;
+        font-size: 2rem;
+    }
+    .menu .close{
+        position: relative;
+        left: 8px;
+        display: none;
+        font-size: 2rem;
+    }
+     .nav{
+        display: flex;
+        flex-direction: column;
+        justify-items: space-between;
+        gap: 20px;
+        display: block;
+    }
+    .nav h1{
+        font-size: 1rem;
+    }
+   
+     .links{
+        display: flex;
+        /* flex-direction: column; */
+        position: relative;
+        font-size: 1rem;
+        bottom: 1rem;
+        left: 4rem;
+    }
+    .links a{
+        font-size: 1rem;
+    }
+   .home{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: space-between;
+        gap: -10rem;
+        padding-top: 2rem;
+        position: relative;
+        bottom: 13rem;
+    }
+    .texts h3{
+        position: absolute;
+        left: 3rem;
+        font-size: 12px;
+    }
+    .texts{
+        position: relative;
+        bottom: 300rem;
+    }
+    .texts h1{
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 27rem;
+        right: 4rem;
+    }
+    .image{
+        position: relative;
+        left: 9rem;
+        top: 7rem;
+    }
+    .image img{
+        width: 15rem;
+        height: 17rem;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 30rem;
+    }
+    .about h1{
+        position: relative;
+        right: 35rem;
+        font-size: 2.5rem;
+    }
+    .more{
+        display: flex;
+        flex-direction: column;
+    }
+    .images img{
+        width: 23rem;
+        height: 23rem;
+    }
+    .images{
+        position: relative;
+        right: 2rem;
+    }
+    .text{
+        position: relative;
+        bottom: 15rem;
+        left: 10px;
+    }
+    .text p{
+        font-size: 1rem;
+    }
+    .text button{
+        position: relative;
+        left: 11rem;
+        top: 5px;
+    }
+
+    .service{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 40rem;
+    }
+    .service h1{
+        position: relative;
+        left: 7rem;
+        font-size: 2.5rem;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 8rem;
+    }
+    .button button{
+        width: 20rem;
+        height: 20rem;
+        font-size: 10px;
+    }
+    .portifolio{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 39rem;
+    }
+    .portifolio h1{
+        position: relative;
+        left: 5rem;
+        top: 14rem;
+        font-size: 2.5rem;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 2rem;
+        bottom: 3rem;
+    }
+    .projects img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 35rem;
+    }
+    .contact h1{
+        position: relative;
+        left: 7rem;
+        font-size: 2.5rem;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 1rem;
+    }
+    .media{
+        position: relative;
+        right: 2rem;
+    }
+    .social{
+        position: relative;
+        left: 5rem;
+    }
+    .multi{
+        position: absolute;
+        right: 1rem;
+    }
+    .message{
+        position: relative;
+        left: 2px;
+    }
+    .media img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .message input{
+        width: 22rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+    .message textarea{
+        width: 22rem;
+        height: 10rem;
+        font-size: 1rem;
+    }
+    .message button{
+        width: 8rem;
+        font-size: 1rem;
+    }
+  .multi{
+    position: relative;
+    right: 24rem;
+  }
+  .footer{
+    position: relative;
+    bottom: 35rem;
+    padding-bottom: 1rem;
+  }
+  .footer h2{
+    font-size: 1rem;
+  }
+}
